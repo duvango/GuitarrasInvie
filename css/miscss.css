@@ -1,0 +1,192 @@
+body{
+	margin: 0px;
+	font-family:'allerta', sans-serif; 
+}
+h2 {
+	font-family: 'montserrat',sans-serif;
+	font-size: 50px;
+}
+h3{
+	font-size:30px; 
+}
+article{
+	margin: 10px;
+	border: 3px solid black; 
+}
+footer{
+	background-color: #273b47;
+	color: white;
+}
+section{
+	padding: 40px;
+}
+table, td, th{
+	border: 2px solid black;
+	border-collapse: collapse;	
+	padding: 20px;
+}
+table th{
+	color: white;
+	background-color: #273b47;
+	padding: 10px;
+}
+.contenedor{
+	width: 800px;
+	margin: auto;
+}
+.cabecera{
+	padding: 20px;
+	background-image: url('../img/background.png');
+	background-size: cover;
+	color: white;
+}
+.logo,.menu,.menu li{
+	display: inline-block;
+		
+}
+.logo{
+	margin-left: 0;
+}
+.menu{
+	float: right;
+}
+.menu ul li{
+	margin-left: 10px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.menu li:before{
+	content: '∘';
+	color: white;
+	font-size: 50px;
+	line-height: 20px;
+}
+.menu{
+	font-size:24px;
+}
+.menu li{
+	margin-left: 30px;
+}
+.portada{
+	height: 350px;
+}
+.titulo{
+	margin-top: 70px;
+	font-family: 'montserrat',sans-serif;
+	font-size: 70px;
+	line-height: 0;
+}
+.eslogan{
+	margin-top: 10px; 
+	font-size:25px; 
+}
+.boton{
+	border-radius: 10px;
+	border: none;
+	background-color: #fd324e;
+	color: white;
+	height: 35px;
+	cursor: pointer;
+	width: 150px;
+	padding: 7px;
+	font-size: 18px;
+	background: linear-gradient(to left,#fe344e,#ff7250)
+}
+.guitarras{
+	margin-bottom:  30px;
+	margin-top: 30px;
+	color:#1f313c;
+}
+.guitarras ol{
+	padding: 0;
+}
+.guitarra2{
+	height: 200px;
+}
+.derecha {
+	float: right;
+	position: relative;
+	bottom:125px;
+}
+.izquierda {
+	float: left;
+	position: relative;
+	
+}
+.contenedor-guitarra{
+	margin-right:370px;
+	margin-left: 20PX;
+	padding-left: 20px;
+	  
+}
+.contenedor-guitarra-a{
+	margin-left: 370px;
+	margin-right: 20PX; 
+	position: relative;
+	padding-left: 20px;
+	bottom:  90px;   
+}
+
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color: white;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.contacto{
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	width: 300px;
+}
+.formulario{
+	display: flex;
+	width: 400px;
+}
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+.col1 label{
+	font-size: 14px;
+}
+.col2{
+	margin-top: 0px;
+	margin-left: 10px;
+	align-items: flex-start;
+}
+.col2 textarea{
+	margin-top: 10px;
+
+}
+.col2 input{
+	margin-top: 10px;
+}
+.col1 label{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+input:focus, textarea:focus{
+	background-color: lightgray;
+	outline: 0;
+}
+.sexo,.intereses{
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+footer .contenedor{
+	padding:30px;
+	display: flex;
+	justify-content: space-between;
+}
+.primera{
+	width: 30%;
+}
