@@ -421,14 +421,13 @@ footer .contenedor{
 	/*section*/
 	/*pie de pagina*/
 	footer .contenedor{
-		
 		margin:0 5px; 
 		padding: 20px;
 		display: block;
 	}
 	.contacto{
 		margin: 0 auto;
-		width: 300px;
+		width: 280px;
 	}
 	.contacto a{
 		margin:4px 4px;
@@ -448,6 +447,25 @@ footer .contenedor{
 	}
 
 	/*pie de pagina*/
+	.tabla{
+		width: 80%;
+	}
+	table, td, th{
+	border: 1px solid black;
+	border-collapse: collapse;	
+	padding: 7px;
+	}
+	table th{
+	color: white;
+	background-color: #273b47;
+	padding: 3px;
+	}
+	section{
+		padding: 10px 0;
+	}
+	.primera{
+	width: 5%;
+	}
 		
 }
 	

@@ -26,30 +26,32 @@
 		</header>
 		<section>
 			<table class="contenedor">
-				<thead>
-					<tr>
-						<th>Modelo</th>
-						<th>Precio</th>
-						<th>Descripción</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td class="primera">Invie Classic</td>
-						<td>$100.000</td>
-						<td>Es una guitarra perfecta para las personas que les gusta el rock y la moda retro.</td>		
-					</tr>
-					<tr>
-						<td class="primera">Invie Acústica</td>
-						<td>$150.000</td>
-						<td>Es una guitarra para los amantes de las tardes noches deconectadas y romanticas.</td>		
-					</tr>
-					<tr>
-						<td class="primera">Invie Custom</td>
-						<td>$290.000</td>
-						<td>Es la g	uitarra perfecta para las personas que no les gusta lo clasico, puedes crear tu guitarra a tu gusto.</td>		
-					</tr>
-				</tbody>
+				<div class="tabla">
+					<thead>
+						<tr>
+							<th>Modelo</th>
+							<th>Precio</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="primera">Invie Classic</td>
+							<td>$100.000</td>
+							<td>Es una guitarra perfecta para las personas que les gusta el rock y la moda retro.</td>		
+						</tr>
+						<tr>
+							<td class="primera">Invie Acústica</td>
+							<td>$150.000</td>
+							<td>Es una guitarra para los amantes de las tardes noches deconectadas y romanticas.</td>		
+						</tr>
+						<tr>
+							<td class="primera">Invie Custom</td>
+							<td>$290.000</td>
+							<td>Es la g	uitarra perfecta para las personas que no les gusta lo clasico, puedes crear tu guitarra a tu gusto.</td>		
+						</tr>
+					</tbody>
+				</div>
 			</table>
 		</section>
 		<footer >
@@ -97,7 +99,16 @@
 					</form>
 				</div>	
 			</div>
-
-		</footer>			
+		</footer>
+		<script>
+			var $botonMenu=document.getElementById('boton-menu');
+			var $menu=document.getElementById('menu');
+			
+			$botonMenu.addEventListener('touchstart',toggleMenu);
+				function toggleMenu(){
+				$menu.classList.toggle('active');	
+			}
+			
+		</script>			
 	</body>	
 </html>
