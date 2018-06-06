@@ -322,8 +322,8 @@ footer .contenedor{
 	}
 	.formulario{
 		display: block;
-		margin: 0 auto;
-		width: 300px;
+		margin: 0 ;
+		width: 250px;
 	}
 	.intereses label{
 		display: block;
@@ -363,13 +363,13 @@ footer .contenedor{
 		display: inline-block;	
 	}
 	.titulo{
-		font-size: 25px;
+		font-size: 20px;
 		}
 	.eslogan{
 		font-size: 14px;
 	} 	
 	h2{	
-		font-size: 25px;
+		font-size: 20px;
 		}
 	.menu {
 		align-items:  center;
@@ -428,12 +428,14 @@ footer .contenedor{
 	}
 	.contacto{
 		margin: 0 auto;
-		
+		width: 300px;
+	}
+	.contacto a{
+		margin:4px 4px;
 	}
 	.formulario{
 		display: block;
-		margin: 0 auto;
-		
+		margin: 0 auto;	
 	}
 	.intereses label{
 		display: block;

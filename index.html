@@ -17,9 +17,9 @@
 				</figure>
 				<nav class="menu" id="menu">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#gitarras">Guitarras</a></li>
-						<li><a href="precios.html">Precios</a></li>
+						<li id="item"><a href="index.html">Home</a></li>
+						<li id="item"><a href="#gitarras">Guitarras</a></li>
+						<li id="item"><a href="precios.html">Precios</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -105,10 +105,12 @@
 		<script>
 			var $botonMenu=document.getElementById('boton-menu');
 			var $menu=document.getElementById('menu');
+			var	$item=document.getElementById('item');
 			$botonMenu.addEventListener('touchstart',toggleMenu);
 			function toggleMenu(){
 				$menu.classList.toggle('active');	
 			}
+			$item.addEventListener('touchstart',toggleMenu);
 		</script>			
 	</body>	
 </html>
